@@ -1,0 +1,33 @@
+#campoJogo{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+ .cobrinha{
+     background: #000;      
+ }
+ .cobrinhaCorpo{
+     background: rgb(42, 19, 250);
+ }
+
+ .comida{
+     background: red;
+ }
+
+ .campo{
+     background: rgb(245, 245, 122);
+     border: 1px solid rgba(0, 0, 0, 0.205);
+    border-collapse: collapse;         
+ }
+
+ #final{
+     position: absolute;
+     top: 120px;
+     left: 350px;
+ }
+
+ #h1{
+    font-size: 120px;
+    color: red;
+ }
